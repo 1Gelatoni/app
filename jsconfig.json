@@ -15,5 +15,10 @@
       "dom.iterable",
       "scripthost"
     ]
-  }
+  },
+  // src的简写不能在node和打包dist文件下使用
+  "exclude":[
+    "node_modules",
+    "dist"
+  ]
 }
